@@ -15,9 +15,9 @@ function sumar(a, b) { // a y b son parametros
 
 sumar(2, 3);  // 2 y 3 son argumentos
 
-function saludar(nombre, apellido = 'No tiene apellido') {
+function saludar(nombre, apellido = '') {
     console.log(`Hola ${nombre} ${apellido}`);
 }
 
 saludar('ignacio', 'Estay');
-saludar('ignacio');
+saludar('ignacio'); // aplicando el default apellido = '';
