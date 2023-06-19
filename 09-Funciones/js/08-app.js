@@ -6,7 +6,7 @@ const carrito = [
     {nombre: 'Celular', precio: 700},
 ]
 
-const nuevoArreglo = carrito.map( (producto) => `${producto.nombre} - Precio: ${producto.precio}`);
+const nuevoArreglo = carrito.map( producto => `${producto.nombre} - Precio: ${producto.precio}`);
 
 
 const nuevoArreglo2 = carrito.forEach(function(producto){
